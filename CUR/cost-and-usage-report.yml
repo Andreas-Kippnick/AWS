@@ -92,7 +92,7 @@ Resources:
         ResultConfiguration:
           OutputLocation: !Sub 's3://${S3Bucket}/${S3Prefix}/${ReportName}/athena-workgroup-output/'  
 
-  #Athena and Glue - based on AWS Template
+  #Athena and Glue - based on AWS Template https://docs.aws.amazon.com/cur/latest/userguide/use-athena-cf.html
 
   AWSCURDatabase:
     Type: 'AWS::Glue::Database'
