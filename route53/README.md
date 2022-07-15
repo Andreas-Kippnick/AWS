@@ -10,7 +10,8 @@ If you want to use the same group of AWS DNS-Servers for all of your domains you
 The SOLUTION - Try to use my custom cloudformation ressources:
 
 
-- [reusable-delegationset.yml](../reusable-delegationset.yml) will create a delegation set and return alos the DNS serves FQND, IPv4 and IPv6 adresses
-- [custom-hostedzone-using-deligationset.yml](../custom-hostedzone-using-deligationset.yml) will use the delegation set id and create a Hosted Zone
+- [reusable-delegationset.yml](./reusable-delegationset.yml) will create a delegation set and return alos the DNS serves FQND, IPv4 and IPv6 adresses
+- [custom-hostedzone-using-deligationset.yml](./custom-hostedzone-using-deligationset.yml) will use the delegation set id and create a Hosted Zone
 
 This two CF-Templates helps also to implement white-lable name server see [more about white lable dns](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/white-label-name-servers.html)
+
